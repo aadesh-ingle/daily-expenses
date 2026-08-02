@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Daily Expenses">
+  <rect width="512" height="512" fill="#211C18"/>
+  <rect x="58" y="58" width="396" height="396" fill="#F1EFEA"/>
+  <path d="M94 94h74M94 94v74M418 94h-74M418 94v74M94 418h74M94 418v-74M418 418h-74M418 418v-74" stroke="#766342" stroke-width="18" stroke-linecap="square"/>
+  <path d="M132 170h248M132 232h248M132 294h160" stroke="#CCC6B8" stroke-width="18" stroke-linecap="square"/>
+  <path d="M152 132h112" stroke="#211C18" stroke-width="22" stroke-linecap="square"/>
+  <path d="M187 188h150M187 235h150M221 188c86 0 116 33 116 79 0 62-48 94-129 94h-21l108 108" fill="none" stroke="#B2492A" stroke-width="42" stroke-linecap="square" stroke-linejoin="round"/>
+</svg>

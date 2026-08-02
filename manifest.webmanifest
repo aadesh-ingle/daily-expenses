@@ -1,0 +1,43 @@
+{
+  "name": "Daily Expenses",
+  "short_name": "Expenses",
+  "id": "/daily-expenses/",
+  "scope": "/daily-expenses/",
+  "start_url": "/daily-expenses/quick-add/",
+  "display": "standalone",
+  "background_color": "#f3f6f3",
+  "theme_color": "#090b0b",
+  "categories": ["finance", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "pwa-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "pwa-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "pwa-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "pwa-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

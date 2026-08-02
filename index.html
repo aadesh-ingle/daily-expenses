@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex, nofollow, noarchive" />
+    <link rel="icon" type="image/svg+xml" href="/daily-expenses/app-icon.svg?v=6" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/daily-expenses/favicon-32.png?v=6" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/daily-expenses/apple-touch-icon.png?v=6" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="/daily-expenses/manifest.webmanifest?v=6" />
+    <meta name="theme-color" content="#f3f6f3" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#090b0b" media="(prefers-color-scheme: dark)" />
+    <title>Daily Expenses</title>
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('daily-expenses:theme');
+          document.documentElement.setAttribute('data-theme', stored === 'light' ? 'light' : 'dark');
+        } catch (error) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/daily-expenses/assets/index-BZKFL18d.js"></script>
+    <link rel="stylesheet" crossorigin href="/daily-expenses/assets/index-DQjy4_fc.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
